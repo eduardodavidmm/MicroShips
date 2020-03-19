@@ -20,29 +20,56 @@ const Footer = () => {
             <p className='copyright-text'>
               Industria Veterinaria S. de R.L. de C.V. &copy; 2020 Todos los
               derechos reservados
-              <a> INDUVET</a>.
+              <a
+                href='https://www.induvet.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                INDUVET
+              </a>
+              .
             </p>
           </div>
 
           <div className='col-md-4 col-sm-6 col-xs-12'>
             <ul className='social-icons'>
               <li>
-                <a className='facebook'>
+                <a
+                  href='https://www.induvet.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='facebook'
+                >
                   <i className='fab fa-facebook'></i>
                 </a>
               </li>
               <li>
-                <a className='twitter'>
+                <a
+                  href='https://www.induvet.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='twitter'
+                >
                   <i className='fab fa-twitter'></i>
                 </a>
               </li>
               <li>
-                <a className='instagram'>
+                <a
+                  href='https://www.instagram.com/induvethn'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='instagram'
+                >
                   <i className='fab fa-instagram'></i>
                 </a>
               </li>
               <li>
-                <a className='linkedin'>
+                <a
+                  href='https://www.instagram.com/induvethn'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='linkedin'
+                >
                   <i className='fab fa-linkedin'></i>
                 </a>
               </li>

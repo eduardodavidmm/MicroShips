@@ -60,7 +60,7 @@ img {
 }
 
 .lead {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
@@ -248,12 +248,12 @@ img {
 
 /* Forms */
 .form .form-group {
-  margin: 1.2rem 0;
+  margin: 2rem 0;
 }
 
 .form .form-text {
   display: block;
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
   color: #000;
 }
 
@@ -265,9 +265,10 @@ img {
 .form textarea {
   display: block;
   width: 100%;
-  padding: 0.4rem;
+  padding: 0.5rem;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
+  border: solid 1px var(--primary-color);
+  border-radius: 15px;
 }
 
 .form input[type='submit'],
@@ -321,6 +322,7 @@ button {
   width: 100%;
   top: 0;
   opacity: 1;
+  border-bottom: none;
 }
 
 .navbar ul {
