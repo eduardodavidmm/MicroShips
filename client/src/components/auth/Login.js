@@ -19,10 +19,9 @@ const Login = () => {
 
   return (
     <Fragment>
-      <h1 className='large text-primary text-center my-3'>Ingresar</h1>
+      <h1 className='large text-primary text-center my-3'>Ingreso</h1>
       <p className='lead text-center'>
-        {' '}
-        ingresa al perfil de tu Mascota <i className='fas fa-paw'></i>
+        Ingresa al perfil de tu Mascota <i className='fas fa-paw'></i>
       </p>
       <form className='form' onSubmit={e => onSubmit(e)}>
         <div className='form-group'>
